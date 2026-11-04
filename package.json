@@ -1,0 +1,52 @@
+﻿{
+  "name": "minecraft-svg-vue",
+  "version": "0.1.0",
+  "description": "A pixel-perfect Vue 3 SVG icon library derived from official Minecraft textures.",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./dist/*": "./dist/*"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "build": "pnpm generate && vite build",
+    "prepublishOnly": "pnpm build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vue": "^3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "minecraft",
+    "svg",
+    "icons",
+    "pixel",
+    "ui"
+  ],
+  "author": "zuoqiuning",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuoqiuning/minecraft-svg-vue.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

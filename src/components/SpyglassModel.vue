@@ -1,0 +1,38 @@
+<template>
+  <svg v-bind="$attrs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <rect x="0" y="0"   fill="rgba(150,181,214,1.00)" stroke="rgba(150,181,214,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="0" width="1" height="1" fill="rgba(191,212,235,1.00)" stroke="rgba(191,212,235,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="1" width="1" height="1" fill="rgba(191,212,235,1.00)" stroke="rgba(191,212,235,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="1" width="1" height="1" fill="rgba(226,239,253,1.00)" stroke="rgba(226,239,253,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="2" width="1" height="1" fill="rgba(51,23,18,1.00)" stroke="rgba(51,23,18,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="2" width="1" height="1" fill="rgba(85,41,37,1.00)" stroke="rgba(85,41,37,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="3" width="1" height="1" fill="rgba(160,81,17,1.00)" stroke="rgba(160,81,17,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="3" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="4" width="1" height="1" fill="rgba(189,106,40,1.00)" stroke="rgba(189,106,40,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="4" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="5" width="1" height="1" fill="rgba(51,23,18,1.00)" stroke="rgba(51,23,18,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="5" width="1" height="1" fill="rgba(85,41,37,1.00)" stroke="rgba(85,41,37,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="6" width="1" height="1" fill="rgba(85,41,37,1.00)" stroke="rgba(85,41,37,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="6" width="1" height="1" fill="rgba(119,56,50,1.00)" stroke="rgba(119,56,50,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="7" width="2" height="1" fill="rgba(119,56,50,1.00)" stroke="rgba(119,56,50,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="8" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="8" width="1" height="1" fill="rgba(244,224,99,1.00)" stroke="rgba(244,224,99,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="9" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="9" width="1" height="1" fill="rgba(244,224,99,1.00)" stroke="rgba(244,224,99,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="10" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="10" width="1" height="1" fill="rgba(244,224,99,1.00)" stroke="rgba(244,224,99,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="11" width="1" height="1" fill="rgba(189,106,40,1.00)" stroke="rgba(189,106,40,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="11" width="1" height="1" fill="rgba(222,146,58,1.00)" stroke="rgba(222,146,58,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="12" width="2" height="1" fill="rgba(244,224,99,1.00)" stroke="rgba(244,224,99,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="13" width="1" height="1" fill="rgba(150,181,214,1.00)" stroke="rgba(150,181,214,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="13" width="1" height="1" fill="rgba(191,212,235,1.00)" stroke="rgba(191,212,235,1.00)" stroke-width="0.1"/>
+  <rect x="0" y="14" width="1" height="1" fill="rgba(191,212,235,1.00)" stroke="rgba(191,212,235,1.00)" stroke-width="0.1"/>
+  <rect x="1" y="14" width="1" height="1" fill="rgba(226,239,253,1.00)" stroke="rgba(226,239,253,1.00)" stroke-width="0.1"/>
+</svg>
+</template>
+
+<script setup lang="ts">
+import { useAttrs } from 'vue';
+defineOptions({ name: 'SpyglassModel', inheritAttrs: false });
+const attrs = useAttrs();
+</script>
