@@ -78,3 +78,8 @@ import IronIngot from 'minecraft-svg-vue/dist/components/IronIngot.vue.mjs'
 
 ## 开源协议
 本项目基于 MIT License 开源。
+
+## 图标速查表
+本项目包含 831 个 Minecraft 物品图标。为了方便查找，我们提供了一份完整的[图标 ID 与 Vue 导入名称对照表](./ICONS.md)。
+
+在开发时，你可以直接打开此表，按 Ctrl+F 搜索物品 ID 即可复制对应的 import 代码。
