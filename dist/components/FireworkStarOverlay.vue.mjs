@@ -1,0 +1,18 @@
+import { defineComponent as e, useAttrs as i, openBlock as h, createElementBlock as g, mergeProps as s, createStaticVNode as o } from "vue";
+const c = /* @__PURE__ */ e({
+  name: "FireworkStarOverlay",
+  inheritAttrs: !1,
+  __name: "FireworkStarOverlay",
+  setup(a) {
+    return i(), (r, t) => (h(), g("svg", s(r.$attrs, {
+      xmlns: "http://www.w3.org/2000/svg",
+      viewBox: "0 0 16 16",
+      "shape-rendering": "crispEdges"
+    }), [...t[0] || (t[0] = [
+      o('<rect x="7" y="3" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="9" y="4" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="10" y="4" width="1" height="1" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="5" y="5" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="6" y="5" width="1" height="1" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="10" y="5" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="5" y="6" width="1" height="1" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="3" y="7" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="6" y="7" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="7" y="7" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="9" y="7" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="3" y="8" width="1" height="1" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="6" y="8" width="1" height="1" fill="rgba(204,204,204,1.00)" stroke="rgba(204,204,204,1.00)" stroke-width="0.1"></rect><rect x="7" y="8" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="9" y="8" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="12" y="8" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="12" y="9" width="1" height="1" fill="rgba(172,172,172,1.00)" stroke="rgba(172,172,172,1.00)" stroke-width="0.1"></rect><rect x="5" y="10" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="6" y="10" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="10" y="10" width="1" height="1" fill="rgba(172,172,172,1.00)" stroke="rgba(172,172,172,1.00)" stroke-width="0.1"></rect><rect x="6" y="11" width="1" height="1" fill="rgba(185,185,185,1.00)" stroke="rgba(185,185,185,1.00)" stroke-width="0.1"></rect><rect x="9" y="11" width="1" height="1" fill="rgba(232,232,232,1.00)" stroke="rgba(232,232,232,1.00)" stroke-width="0.1"></rect><rect x="10" y="11" width="1" height="1" fill="rgba(172,172,172,1.00)" stroke="rgba(172,172,172,1.00)" stroke-width="0.1"></rect>', 23)
+    ])], 16));
+  }
+});
+export {
+  c as default
+};

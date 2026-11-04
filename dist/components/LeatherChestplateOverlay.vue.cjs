@@ -1,0 +1,1 @@
+"use strict";const e=require("vue"),r=e.defineComponent({name:"LeatherChestplateOverlay",inheritAttrs:!1,__name:"LeatherChestplateOverlay",setup(s){return e.useAttrs(),(t,n)=>(e.openBlock(),e.createElementBlock("svg",e.mergeProps(t.$attrs,{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 16 16","shape-rendering":"crispEdges"}),null,16))}});module.exports=r;

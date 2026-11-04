@@ -20,7 +20,7 @@
   "sideEffects": false,
   "scripts": {
     "generate": "node scripts/generate.mjs",
-    "build": "pnpm generate && vite build",
+    "build": "vite build && node generate-dts.mjs",
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
